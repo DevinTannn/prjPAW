@@ -1,0 +1,8 @@
+.hero {
+  height: 400px;
+  background: url('https://picsum.photos/1200/500') center/cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}

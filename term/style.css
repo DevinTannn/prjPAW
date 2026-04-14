@@ -1,0 +1,32 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 2em;
+  background-color: #f4f6f9;
+  line-height: 1.6;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+strong {
+  color: #2e7d32;
+  font-size: 20px;
+}
+
+.btn-back {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  background-color: #2e7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-back:hover {
+  background-color: #1b5e20;
+}
