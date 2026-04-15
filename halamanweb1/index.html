@@ -106,26 +106,26 @@
 </div>
 
 <!-- Kontak -->
-<div id="kontak" class="container mt-5">
+<div id="formkontak" class="container mt-5">
   <h3 class="text-center fw-bold">Hubungi Kami</h3>
 
     <div class="card p-4 mt-3 bg-light">
     <form id="formKontak">
         <div class="row">
             <div class="col-md-6 mb-3">
-                <input type="text" class="form-control" placeholder="Nama">
+                <input type="text" id="nama" class="form-control" placeholder="Nama" required>
             </div>
 
             <div class="col-md-6 mb-3">
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" class="form-control" placeholder="Email" required>
             </div>
 
             <div class="col-12 mb-3">
-                <textarea class="form-control" rows="3" placeholder="Pesan"></textarea>
+                <textarea class="form-control" rows="3" placeholder="Pesan" required></textarea>
             </div>
 
             <div class="text-center">
-                <button class="btn btn-success" onclick="kirim()">Kirim</button>
+                <button type="button" class="btn btn-success" onclick="kirim()">Kirim</button>
             </div>
 
         </div>

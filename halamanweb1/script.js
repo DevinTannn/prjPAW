@@ -2,16 +2,15 @@ function halo(){
   alert("Selamat datang di website kami!");
 }
 
-function kirim(){
-  let nama = document.getElementById("nama").value;
-
+function kirim(){  
+  let nama = document.getElementById("nama").value;  
   if(nama === ""){
-    alert("Nama tidak boleh kosong!");
+    alert("Nama harus diisi dulu!");
     return;
   }
 
-  alert("Pesan berhasil dikirim!");
-  document.getElementById("formKontak").reset();
+  alert("Terima kasih, " + nama + "! Pesan berhasil dikirim!");  
+  document.getElementById("formKontak").reset(); 
 }
 
 function terms(){
